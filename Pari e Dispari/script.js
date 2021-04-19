@@ -7,8 +7,9 @@ console.log("Il numero del computer è " + numeroComputer);
 var somma = (1*numeroUtente) + (1*numeroComputer);
 console.log("La somma è " + somma)
 
-function calcolo(){
-    if (somma % 2 === 0){ 
+calcolo(somma)
+function calcolo(somma2){
+    if (somma2 % 2 === 0){ 
     return "pari" 
     }else{
     return "dispari" 
